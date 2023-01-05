@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #060634;
+            color: #ffffff;
+        }
+        .main-form{
+            width: 25rem;
+            height: 25rem;
+            /* background-color: red; */
+            margin: auto ;
+            margin-top: 10rem;
+            text-align: center;
+        }
+        #file-box{
+            width: 72%;
+            font-size: 22px;
+            color: rgb(203, 187, 10);
+            background-color: rgba(255, 255, 255, 0.461);
+            display: inline-block;
+            margin: auto ;
+            margin-top: 2rem;
+            padding: 15px ;
+            border-radius: 1px 25px 1px 25px ;
+        }
+        #btn{
+            width: 80%;
+            font-size: 32px;
+            font-weight: bold;
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.461);
+            outline: none;
+            border: none;
+            margin: auto ;
+            margin-top: 2rem;
+            border-radius: 1px 25px 1px 25px ;
+            padding: 15px;
+            color: rgb(203, 187, 10);
+        }
+        .link{
+            font-size: 18;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            margin-left: 50px;
+            color: rgb(203, 187, 10);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-form">
+        <form  method="post" enctype = "multipart/form-data">
+            <input type="file" name="file_name" id="file-box">
+            <input type="submit"  value="Send" id="btn">
+        </form>
+    </div>
+    <a href="/lib"><h3 class="link">go to library</h3></a>
+</body>
+</html>
